@@ -1,3 +1,7 @@
+
+Application Url ==> https://io-tech-task-gamma.vercel.app/
+
+
 Getting Started
 This guide provides instructions on how to set up and run this React project locally, which includes a JSON server for API functionality.
 
