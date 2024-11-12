@@ -24,10 +24,14 @@ Then navigate into the project directory:
 
 cd io-tech-task
 
+---
+
 ### 2. Install Dependencies
 Install all the necessary dependencies by running:
 
 npm install
+
+---
 
 ### 3. Set Up the JSON Server
 This project uses json-server to create a local REST API. Follow these steps:
@@ -35,6 +39,8 @@ This project uses json-server to create a local REST API. Follow these steps:
 => Install json-server globally (if you haven’t already):
 
 npm install -g json-server
+
+---
 
 => Create a db.json file in the root of the project if it doesn’t already exist. This file will store your API data.
 
@@ -50,11 +56,15 @@ Here’s an example structure for db.json:
   ]
 }
 
+---
+
 => Start the JSON Server by running:
 
 json-server --watch db.json --port 3001
 
 This command watches for changes in db.json and starts the server on http://localhost:3001.
+
+---
 
 ### 4. Start the React Application
 Open another terminal in the project directory and run:
